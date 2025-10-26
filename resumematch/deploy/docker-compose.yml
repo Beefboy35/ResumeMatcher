@@ -1,0 +1,48 @@
+version: "3.9"
+services:
+  api:
+    build: ./..
+    working_dir: /app/resumematch/apps/backend
+    command: ["uv", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_DB: resumematch
+      POSTGRES_USER: resumematch
+      POSTGRES_PASSWORD: resumematch
+      MONGODB_URI: mongodb://mongodb:27017/
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - mongodb
+    volumes:
+      - ..:/app
+  frontend:
+    working_dir: /app/resumematch/apps/frontend
+    command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+    volumes:
+      - ..:/app
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: resumematch
+      POSTGRES_USER: resumematch
+      POSTGRES_PASSWORD: resumematch
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  mongodb:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  postgres_data:
+  mongo_data:

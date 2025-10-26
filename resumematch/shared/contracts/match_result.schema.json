@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatchResult",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "fullName": {"type": "string"},
+          "location": {"type": "string"},
+          "yearsExp": {"type": "number"},
+          "skills": {"type": "array", "items": {"type": "string"}},
+          "score": {"type": "number"}
+        },
+        "required": ["id", "fullName", "location", "yearsExp", "skills"]
+      }
+    },
+    "total": {"type": "number"},
+    "vacancyId": {"type": "string"}
+  },
+  "required": ["items", "total", "vacancyId"]
+}

@@ -1,0 +1,44 @@
+[project]
+name = "resumematch-backend"
+version = "0.1.0"
+description = "ResumeMatchEDU backend: Django + GraphQL + DRF"
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Runtime deps
+dependencies = [
+  "django>=4.2",
+  "djangorestframework>=3.14",
+  "strawberry-graphql>=0.213",
+  "psycopg2-binary>=2.9",
+  "pymongo>=4.6",
+  "scikit-learn>=1.4",
+  "joblib>=1.4",
+  "numpy>=1.26",
+  "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+  "pytest-django>=4.7",
+  "ruff>=0.6",
+]
+
+[tool.uv]
+index = ["https://pypi.org/simple"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "project.settings"
+python_files = ["test_*.py", "*_test.py"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+exclude = [
+  "src/infrastructure/orm/migrations",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
