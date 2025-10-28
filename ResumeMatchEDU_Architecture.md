@@ -289,7 +289,7 @@ React-компоненты и страницы:
 - `label(id, vacancy_id, candidate_id, label ENUM('pos','neg','later'), reason, created_at)`
 
 **Почему Postgres:**
-- чёткие связи (`candidate ↔ vacancy` через `label`)
+- чёткие связи (`candidate <-> vacancy` через `label`)
 - удобные выборки для аналитики и истории решений
 
 ### 6.2 MongoDB GridFS
