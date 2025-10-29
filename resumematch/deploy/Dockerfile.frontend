@@ -1,0 +1,20 @@
+FROM node:20
+
+# Рабочая директория фронтенда
+WORKDIR /app/apps/frontend
+
+# Копируем манифесты зависимостей отдельно для кэша
+COPY apps/frontend/package.json ./
+COPY apps/frontend/package-lock.json ./
+
+# Устанавливаем зависимости (предпочтительно npm ci, иначе npm install)
+RUN npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+
+# Копируем исходники фронта
+COPY apps/frontend/ ./
+
+# Открываем порт dev-сервера Vite
+EXPOSE 5173
+
+# Команда по умолчанию: dev-сервер
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

@@ -1,0 +1,24 @@
+FROM python:3.11-slim
+
+# Base workdir for project
+WORKDIR /app
+
+# Install build tools and curl for uv installer
+RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates build-essential postgresql-client \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install uv package manager
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh
+ENV PATH="/root/.local/bin:${PATH}"
+
+# Copy backend sources (for dependency resolution via pyproject)
+COPY apps/backend/ /app/apps/backend/
+
+# Install runtime dependencies via uv and pyproject
+WORKDIR /app/apps/backend
+RUN uv pip install --system .
+
+# The application code will be mounted via volumes in docker-compose for live dev
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1

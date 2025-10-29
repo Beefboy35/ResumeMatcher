@@ -1,41 +1,57 @@
-version: "3.9"
+
 services:
   api:
-    build: ./..
-    working_dir: /app/resumematch/apps/backend
-    command: ["uv", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.api
+    working_dir: /app/apps/backend
+    command: ["sh", "-c", "until pg_isready -h ${POSTGRES_HOST} -U ${POSTGRES_USER} -d ${POSTGRES_DB}; do echo 'waiting for postgres DNS/ready...'; sleep 2; done; python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]
     environment:
-      POSTGRES_HOST: postgres
-      POSTGRES_DB: resumematch
-      POSTGRES_USER: resumematch
-      POSTGRES_PASSWORD: resumematch
-      MONGODB_URI: mongodb://mongodb:27017/
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      MONGODB_URI: ${MONGODB_URI}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
     ports:
       - "8000:8000"
     depends_on:
-      - postgres
-      - mongodb
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_started
     volumes:
       - ..:/app
   frontend:
-    working_dir: /app/resumematch/apps/frontend
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile.frontend
+    working_dir: /app/apps/frontend
     command: ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
     ports:
       - "5173:5173"
     depends_on:
       - api
     volumes:
-      - ..:/app
+      # Монтируем только исходники для HMR, зависимости остаются в образе
+      - ../apps/frontend/src:/app/apps/frontend/src
+      - ../apps/frontend/index.html:/app/apps/frontend/index.html
+      - ../apps/frontend/public:/app/apps/frontend/public
   postgres:
-    image: postgres:15
+    image: postgres:17
     environment:
-      POSTGRES_DB: resumematch
-      POSTGRES_USER: resumematch
-      POSTGRES_PASSWORD: resumematch
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB} -h 127.0.0.1"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
   mongodb:
     image: mongo:6
     ports:
