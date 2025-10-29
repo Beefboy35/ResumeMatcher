@@ -6,7 +6,7 @@ import { UploadPage } from "./presentation/pages/UploadPage";
 export default function App() {
   return (
     <ServiceContainerProvider>
-      <div style={{ display: "grid", gap: 16 }}>
+      <div className="container">
         <UploadPage />
         <CandidatesListPage vacancyId="vac-1" />
       </div>

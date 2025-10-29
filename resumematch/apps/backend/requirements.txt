@@ -1,0 +1,10 @@
+django
+drf-spectacular[sidecar]
+djangorestframework
+graphene-django
+psycopg2-binary
+pymongo
+scikit-learn
+numpy
+gridfs
+uvicorn

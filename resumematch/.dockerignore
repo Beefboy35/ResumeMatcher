@@ -1,0 +1,23 @@
+# Exclude Python virtual environments and caches
+**/.venv
+**/venv
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.pytest_cache
+
+# Exclude Node artifacts
+apps/frontend/node_modules
+apps/frontend/dist
+
+# VCS and editor junk
+.git
+.gitignore
+.DS_Store
+
+# Docker deploy env files (not needed for build)
+deploy/env/
+deploy/.env*
+
+# Misc
+**/*.log
