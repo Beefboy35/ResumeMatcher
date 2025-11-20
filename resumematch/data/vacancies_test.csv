@@ -1,0 +1,21 @@
+id,title,location,skills_req_json,jd_text,jd_file_id
+V061,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","Разработка и поддержка backend сервисов...",jd/V061.txt
+V062,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","Разработка SPA на React/TS...",jd/V062.txt
+V063,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","Построение ML пайплайнов...",jd/V063.txt
+V064,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","Поддержка CI/CD...",jd/V064.txt
+V065,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","REST-сервисы на Java...",jd/V065.txt
+V066,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","Аналитика данных...",jd/V066.txt
+V067,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","Интеграции и очереди...",jd/V067.txt
+V068,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","SPA и сборка...",jd/V068.txt
+V069,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","Модели и метрики...",jd/V069.txt
+V070,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","Облака и IaaC...",jd/V070.txt
+V071,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","...",jd/V071.txt
+V072,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","...",jd/V072.txt
+V073,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","...",jd/V073.txt
+V074,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","...",jd/V074.txt
+V075,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","...",jd/V075.txt
+V076,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","...",jd/V076.txt
+V077,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","...",jd/V077.txt
+V078,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","...",jd/V078.txt
+V079,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","...",jd/V079.txt
+V080,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","...",jd/V080.txt

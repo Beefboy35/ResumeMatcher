@@ -1,0 +1,61 @@
+id,title,location,skills_req_json,jd_text,jd_file_id
+V001,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","Разработка и поддержка backend сервисов на Python/Django, работа с БД PostgreSQL, контейнеризация Docker.",jd/V001.txt
+V002,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","Разработка SPA на React/TypeScript, работа с компонентной библиотекой, оптимизация производительности фронтенда.",jd/V002.txt
+V003,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","Построение ML-пайплайнов, подготовка данных, обучение моделей и оценка метрик.",jd/V003.txt
+V004,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","Поддержка CI/CD, контейнеризация, кластеризация, инфраструктурная автоматизация.",jd/V004.txt
+V005,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","Разработка REST-сервисов на Java/Spring, работа с реляционными БД, внедрение Hibernate.",jd/V005.txt
+V006,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","Анализ данных, отчётность, визуализация, подготовка инсайтов на основе данных.",jd/V006.txt
+V007,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","Разработка сервисов на Python/FastAPI, интеграции и очереди.",jd/V007.txt
+V008,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","Разработка SPA, настройка сборки и стилизация.",jd/V008.txt
+V009,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","Подготовка данных, построение моделей, выбор метрик.",jd/V009.txt
+V010,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","Контейнеризация, развёртывание в облаках, инфраструктура как код.",jd/V010.txt
+V011,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","Разработка и поддержка backend сервисов...",jd/V011.txt
+V012,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","Разработка SPA на React/TS...",jd/V012.txt
+V013,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","Построение ML пайплайнов...",jd/V013.txt
+V014,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","Поддержка CI/CD...",jd/V014.txt
+V015,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","REST-сервисы на Java...",jd/V015.txt
+V016,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","Аналитика данных...",jd/V016.txt
+V017,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","Интеграции и очереди...",jd/V017.txt
+V018,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","SPA и сборка...",jd/V018.txt
+V019,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","Модели и метрики...",jd/V019.txt
+V020,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","Облака и IaaC...",jd/V020.txt
+V021,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","...",jd/V021.txt
+V022,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","...",jd/V022.txt
+V023,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","...",jd/V023.txt
+V024,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","...",jd/V024.txt
+V025,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","...",jd/V025.txt
+V026,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","...",jd/V026.txt
+V027,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","...",jd/V027.txt
+V028,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","...",jd/V028.txt
+V029,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","...",jd/V029.txt
+V030,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","...",jd/V030.txt
+V031,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","...",jd/V031.txt
+V032,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","...",jd/V032.txt
+V033,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","...",jd/V033.txt
+V034,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","...",jd/V034.txt
+V035,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","...",jd/V035.txt
+V036,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","...",jd/V036.txt
+V037,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","...",jd/V037.txt
+V038,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","...",jd/V038.txt
+V039,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","...",jd/V039.txt
+V040,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","...",jd/V040.txt
+V041,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","...",jd/V041.txt
+V042,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","...",jd/V042.txt
+V043,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","...",jd/V043.txt
+V044,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","...",jd/V044.txt
+V045,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","...",jd/V045.txt
+V046,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","...",jd/V046.txt
+V047,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","...",jd/V047.txt
+V048,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","...",jd/V048.txt
+V049,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","...",jd/V049.txt
+V050,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","...",jd/V050.txt
+V051,Backend Python Developer,Москва,"[""Python"",""Django"",""PostgreSQL"",""Docker""]","...",jd/V051.txt
+V052,Frontend React Engineer,Санкт-Петербург,"[""JavaScript"",""TypeScript"",""React"",""Redux""]","...",jd/V052.txt
+V053,ML Engineer,Новосибирск,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]","...",jd/V053.txt
+V054,DevOps Engineer,Екатеринбург,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]","...",jd/V054.txt
+V055,Java Backend Developer,Казань,"[""Java"",""Spring"",""SQL"",""REST""]","...",jd/V055.txt
+V056,Data Analyst,Самара,"[""SQL"",""Excel"",""Tableau"",""Python""]","...",jd/V056.txt
+V057,Backend Python Developer,Тюмень,"[""Python"",""Django"",""Redis"",""FastAPI""]","...",jd/V057.txt
+V058,Frontend React Engineer,Томск,"[""JavaScript"",""React"",""Webpack"",""CSS""]","...",jd/V058.txt
+V059,ML Engineer,Краснодар,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]","...",jd/V059.txt
+V060,DevOps Engineer,Челябинск,"[""Docker"",""AWS"",""Terraform"",""Linux""]","...",jd/V060.txt

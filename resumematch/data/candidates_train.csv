@@ -1,0 +1,101 @@
+id,full_name,contact_email,location,years_exp,skills_json,resume_file_id
+C001,Иван Петров,user001@example.com,Москва,1,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C001.txt
+C002,Ольга Смирнова,user002@example.com,Санкт-Петербург,2,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C002.txt
+C003,Сергей Иванов,user003@example.com,Новосибирск,3,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C003.txt
+C004,Мария Кузнецова,user004@example.com,Екатеринбург,4,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C004.txt
+C005,Андрей Соколов,user005@example.com,Казань,5,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C005.txt
+C006,Елена Морозова,user006@example.com,Самара,6,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C006.txt
+C007,Дмитрий Волков,user007@example.com,Тюмень,7,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C007.txt
+C008,Анна Сидорова,user008@example.com,Томск,8,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C008.txt
+C009,Николай Ершов,user009@example.com,Краснодар,9,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C009.txt
+C010,Татьяна Орлова,user010@example.com,Челябинск,10,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C010.txt
+C011,Иван Петров,user011@example.com,Москва,11,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C011.txt
+C012,Ольга Смирнова,user012@example.com,Санкт-Петербург,12,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C012.txt
+C013,Сергей Иванов,user013@example.com,Новосибирск,0,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C013.txt
+C014,Мария Кузнецова,user014@example.com,Екатеринбург,1,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C014.txt
+C015,Андрей Соколов,user015@example.com,Казань,2,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C015.txt
+C016,Елена Морозова,user016@example.com,Самара,3,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C016.txt
+C017,Дмитрий Волков,user017@example.com,Тюмень,4,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C017.txt
+C018,Анна Сидорова,user018@example.com,Томск,5,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C018.txt
+C019,Николай Ершов,user019@example.com,Краснодар,6,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C019.txt
+C020,Татьяна Орлова,user020@example.com,Челябинск,7,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C020.txt
+C021,Иван Петров,user021@example.com,Москва,8,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C021.txt
+C022,Ольга Смирнова,user022@example.com,Санкт-Петербург,9,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C022.txt
+C023,Сергей Иванов,user023@example.com,Новосибирск,10,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C023.txt
+C024,Мария Кузнецова,user024@example.com,Екатеринбург,11,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C024.txt
+C025,Андрей Соколов,user025@example.com,Казань,12,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C025.txt
+C026,Елена Морозова,user026@example.com,Самара,0,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C026.txt
+C027,Дмитрий Волков,user027@example.com,Тюмень,1,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C027.txt
+C028,Анна Сидорова,user028@example.com,Томск,2,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C028.txt
+C029,Николай Ершов,user029@example.com,Краснодар,3,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C029.txt
+C030,Татьяна Орлова,user030@example.com,Челябинск,4,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C030.txt
+C031,Иван Петров,user031@example.com,Москва,5,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C031.txt
+C032,Ольга Смирнова,user032@example.com,Санкт-Петербург,6,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C032.txt
+C033,Сергей Иванов,user033@example.com,Новосибирск,7,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C033.txt
+C034,Мария Кузнецова,user034@example.com,Екатеринбург,8,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C034.txt
+C035,Андрей Соколов,user035@example.com,Казань,9,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C035.txt
+C036,Елена Морозова,user036@example.com,Самара,10,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C036.txt
+C037,Дмитрий Волков,user037@example.com,Тюмень,11,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C037.txt
+C038,Анна Сидорова,user038@example.com,Томск,12,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C038.txt
+C039,Николай Ершов,user039@example.com,Краснодар,0,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C039.txt
+C040,Татьяна Орлова,user040@example.com,Челябинск,1,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C040.txt
+C041,Иван Петров,user041@example.com,Москва,2,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C041.txt
+C042,Ольга Смирнова,user042@example.com,Санкт-Петербург,3,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C042.txt
+C043,Сергей Иванов,user043@example.com,Новосибирск,4,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C043.txt
+C044,Мария Кузнецова,user044@example.com,Екатеринбург,5,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C044.txt
+C045,Андрей Соколов,user045@example.com,Казань,6,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C045.txt
+C046,Елена Морозова,user046@example.com,Самара,7,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C046.txt
+C047,Дмитрий Волков,user047@example.com,Тюмень,8,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C047.txt
+C048,Анна Сидорова,user048@example.com,Томск,9,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C048.txt
+C049,Николай Ершов,user049@example.com,Краснодар,10,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C049.txt
+C050,Татьяна Орлова,user050@example.com,Челябинск,11,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C050.txt
+C051,Иван Петров,user051@example.com,Москва,12,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C051.txt
+C052,Ольга Смирнова,user052@example.com,Санкт-Петербург,0,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C052.txt
+C053,Сергей Иванов,user053@example.com,Новосибирск,1,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C053.txt
+C054,Мария Кузнецова,user054@example.com,Екатеринбург,2,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C054.txt
+C055,Андрей Соколов,user055@example.com,Казань,3,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C055.txt
+C056,Елена Морозова,user056@example.com,Самара,4,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C056.txt
+C057,Дмитрий Волков,user057@example.com,Тюмень,5,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C057.txt
+C058,Анна Сидорова,user058@example.com,Томск,6,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C058.txt
+C059,Николай Ершов,user059@example.com,Краснодар,7,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C059.txt
+C060,Татьяна Орлова,user060@example.com,Челябинск,8,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C060.txt
+C061,Иван Петров,user061@example.com,Москва,9,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C061.txt
+C062,Ольга Смирнова,user062@example.com,Санкт-Петербург,10,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C062.txt
+C063,Сергей Иванов,user063@example.com,Новосибирск,11,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C063.txt
+C064,Мария Кузнецова,user064@example.com,Екатеринбург,12,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C064.txt
+C065,Андрей Соколов,user065@example.com,Казань,0,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C065.txt
+C066,Елена Морозова,user066@example.com,Самара,1,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C066.txt
+C067,Дмитрий Волков,user067@example.com,Тюмень,2,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C067.txt
+C068,Анна Сидорова,user068@example.com,Томск,3,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C068.txt
+C069,Николай Ершов,user069@example.com,Краснодар,4,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C069.txt
+C070,Татьяна Орлова,user070@example.com,Челябинск,5,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C070.txt
+C071,Иван Петров,user071@example.com,Москва,6,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C071.txt
+C072,Ольга Смирнова,user072@example.com,Санкт-Петербург,7,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C072.txt
+C073,Сергей Иванов,user073@example.com,Новосибирск,8,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C073.txt
+C074,Мария Кузнецова,user074@example.com,Екатеринбург,9,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C074.txt
+C075,Андрей Соколов,user075@example.com,Казань,10,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C075.txt
+C076,Елена Морозова,user076@example.com,Самара,11,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C076.txt
+C077,Дмитрий Волков,user077@example.com,Тюмень,12,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C077.txt
+C078,Анна Сидорова,user078@example.com,Томск,0,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C078.txt
+C079,Николай Ершов,user079@example.com,Краснодар,1,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C079.txt
+C080,Татьяна Орлова,user080@example.com,Челябинск,2,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C080.txt
+C081,Иван Петров,user081@example.com,Москва,3,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C081.txt
+C082,Ольга Смирнова,user082@example.com,Санкт-Петербург,4,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C082.txt
+C083,Сергей Иванов,user083@example.com,Новосибирск,5,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C083.txt
+C084,Мария Кузнецова,user084@example.com,Екатеринбург,6,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C084.txt
+C085,Андрей Соколов,user085@example.com,Казань,7,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C085.txt
+C086,Елена Морозова,user086@example.com,Самара,8,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C086.txt
+C087,Дмитрий Волков,user087@example.com,Тюмень,9,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C087.txt
+C088,Анна Сидорова,user088@example.com,Томск,10,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C088.txt
+C089,Николай Ершов,user089@example.com,Краснодар,11,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C089.txt
+C090,Татьяна Орлова,user090@example.com,Челябинск,12,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C090.txt
+C091,Иван Петров,user091@example.com,Москва,0,"[""Python"",""Django"",""PostgreSQL"",""Docker""]",resumes/C091.txt
+C092,Ольга Смирнова,user092@example.com,Санкт-Петербург,1,"[""JavaScript"",""TypeScript"",""React"",""Redux""]",resumes/C092.txt
+C093,Сергей Иванов,user093@example.com,Новосибирск,2,"[""Python"",""Pandas"",""NumPy"",""scikit-learn""]",resumes/C093.txt
+C094,Мария Кузнецова,user094@example.com,Екатеринбург,3,"[""Kubernetes"",""Docker"",""AWS"",""CI/CD""]",resumes/C094.txt
+C095,Андрей Соколов,user095@example.com,Казань,4,"[""Java"",""Spring"",""SQL"",""REST""]",resumes/C095.txt
+C096,Елена Морозова,user096@example.com,Самара,5,"[""SQL"",""Excel"",""Tableau"",""Python""]",resumes/C096.txt
+C097,Дмитрий Волков,user097@example.com,Тюмень,6,"[""Python"",""Django"",""Redis"",""FastAPI""]",resumes/C097.txt
+C098,Анна Сидорова,user098@example.com,Томск,7,"[""JavaScript"",""React"",""Webpack"",""CSS""]",resumes/C098.txt
+C099,Николай Ершов,user099@example.com,Краснодар,8,"[""Pandas"",""NumPy"",""ML"",""Data Processing""]",resumes/C099.txt
+C100,Татьяна Орлова,user100@example.com,Челябинск,9,"[""Docker"",""AWS"",""Terraform"",""Linux""]",resumes/C100.txt

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatchResult",
+  "items": [
+    {
+      "id": "C101",
+      "fullName": "Иван Петров",
+      "location": "Москва",
+      "yearsExp": 10,
+      "skills": ["Python", "Django", "PostgreSQL", "Docker"],
+      "score": 0.88
+    },
+    {
+      "id": "C107",
+      "fullName": "Дмитрий Волков",
+      "location": "Тюмень",
+      "yearsExp": 3,
+      "skills": ["Python", "Django", "Redis", "FastAPI"],
+      "score": 0.74
+    }
+  ],
+  "total": 2,
+  "vacancyId": "V061"
+}
